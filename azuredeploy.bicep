@@ -43,7 +43,7 @@ param mongoDbPassword string
 
 
 @description('Git repository URL for the application source. This defaults to the [`AzureCosmosDB/VectorSearchAiAssistant`](https://github.com/AzureCosmosDB/VectorSearchAiAssistant) repository.')
-param appGitRepository string = 'https://github.com/AzureCosmosDB/VectorSearchAiAssistant.git'
+param appGitRepository string = 'https://github.com/IamVarma/VectorSearchAiAssistant.git'
 
 @description('Git repository branch for the application source. This defaults to the [**MongovCore** branch of the `AzureCosmosDB/VectorSearchAiAssistant`](https://github.com/AzureCosmosDB/VectorSearchAiAssistant/tree/MongovCore) repository.')
 param appGetRepositoryBranch string = 'MongovCore'
